@@ -11,7 +11,7 @@ namespace RemoteKeycard
         public override string Author => "wexelsdev";
         
         public override Version Version => new(1, 1, 1);
-        public override Version RequiredExiledVersion => new(9, 6, 0);
+        public override Version RequiredExiledVersion => new(9, 5, 2);
         
         private PlayerHandlers? _handlers;
         
